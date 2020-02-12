@@ -1,0 +1,15 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "conventionalCommits": true,
+  "exact": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "init": {
+      "exact": true
+    }
+  }
+}

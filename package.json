@@ -1,0 +1,13 @@
+{
+  "name": "@alljoint-next/root",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.2",
+    "lerna": "^3.20.2"
+  }
+}
