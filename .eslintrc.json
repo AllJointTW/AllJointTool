@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@alljoint-next/eslint-config-typescript"]
+}
