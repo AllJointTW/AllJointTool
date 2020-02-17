@@ -1,5 +1,5 @@
 # AllJointNext
-> The Next Generation AllJointJS.
+> The Next Generation AllJointJS
 
 ## Contributing Guide
 ### Pull Request Guidelines
@@ -28,12 +28,13 @@
     ```sh
     open /Applications/Sourcetree.app
     # or
-    stree your-folder-name
+    stree folder-name
     ```
 
 ### Prior Knowledge
 * lerna (monorepo)
   * https://github.com/lerna/lerna/blob/master/README.md
+  * https://zhuanlan.zhihu.com/p/71385053
 
 * yarn workspace
   * https://classic.yarnpkg.com/en/docs/workspaces
@@ -43,8 +44,8 @@
 ### Common Scripts
 **project**
 ```sh
-# add the new project
-yarn lerna add your-project-name --independent
+# create the new project
+yarn lerna create project-name
 ```
 
 **package**
@@ -52,9 +53,24 @@ yarn lerna add your-project-name --independent
 # install all packages
 yarn install
 
-# add the npm package in whole workspace
-yarn add your-package-name --ignore-workspace-root-check # alternative yarn add your-package-name -W
+# add the package in whole workspace (root)
+yarn add package-name --ignore-workspace-root-check # alternative yarn add package-name -W
 
-# add the npm package in special workspace
-yarn workspace your-workspace-name add your-package-name
+# add the package in special workspace
+yarn workspace workspace-name add package-name
+```
+
+**lint**
+```sh
+# lint the whole workspace (root)
+yarn workspaces run lint --fix
+```
+
+**release**
+```sh
+# tag a version
+lerna version -m "chore(release): publish v*.*.*" --create-release github
+
+# publish to github
+lerna publish from-package
 ```

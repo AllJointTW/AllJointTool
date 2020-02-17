@@ -10,6 +10,15 @@
   "command": {
     "init": {
       "exact": true
+    },
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }

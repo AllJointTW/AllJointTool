@@ -1,0 +1,28 @@
+{
+  "name": "@alljoint-next/eslint-config",
+  "version": "0.0.0",
+  "description": "The ESLint Config Used For AllJointNext",
+  "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
+  "main": ".eslintrc.json",
+  "files": [
+    ".eslintrc.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllJointTW/AllJointNext.git"
+  },
+  "scripts": {
+    "lint": ":"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
