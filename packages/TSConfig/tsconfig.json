@@ -15,9 +15,5 @@
     "checkJs": true,
     "resolveJsonModule": true
   },
-  "exclude": [
-    "../../../node_modules",
-    "../../../dist",
-    "../../../public"
-  ]
+  "exclude": ["../../../node_modules", "../../../dist", "../../../public"]
 }
