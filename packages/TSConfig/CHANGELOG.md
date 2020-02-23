@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/ts-config@0.1.0...@alljoint-next/ts-config@0.1.1) (2020-02-23)
+
+
+### Bug Fixes
+
+* **ts-config:** missing project issue ([073762e](https://github.com/AllJointTW/AllJointNext/commit/073762e0983887e118ea8434607323a4a6081ebc))
+
+
+
+
+
 # 0.1.0 (2020-02-23)
 
 
