@@ -21,10 +21,12 @@ echo '{ "extends": "@alljoint-next/ts-config" }' > .tsconfig.json
 ```
 
 3. Add Scripts
-package.json
+**package.json**
 ```json
+{
   "scripts": {
-    "format": "prettier src/index.js --write && yarn lint --fix",
-    "lint": "eslint src/index.js"
-  },
+    "format": "prettier **/*.{js,json,ts,md,yaml} !**/dist/** !./dist/** --write && yarn lint --fix",
+    "lint": "eslint **/*.ts"
+  }
+}
 ```
