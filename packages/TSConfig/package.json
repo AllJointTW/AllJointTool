@@ -1,0 +1,21 @@
+{
+  "name": "@alljoint-next/ts-config",
+  "version": "0.0.0",
+  "description": "The TSLint Config Be Used For AllJointNext",
+  "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
+  "license": "GPL-3.0",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllJointTW/AllJointNext.git"
+  },
+  "scripts": {
+    "lint": ":"
+  }
+}
