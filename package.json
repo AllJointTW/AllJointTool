@@ -1,5 +1,4 @@
 {
-  "name": "@alljoint-next/root",
   "workspaces": [
     "packages/*"
   ],
