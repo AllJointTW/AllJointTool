@@ -1,2 +1,2 @@
 # ESLintConfig
-> The ESLint Config Used For AllJointNext
+> The ESLint Config Be Used For AllJointNext
