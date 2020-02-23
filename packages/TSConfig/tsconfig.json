@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "baseUrl": ".",
+    "outDir": "../../../dist",
     "module": "commonjs",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
@@ -15,6 +15,9 @@
     "checkJs": true,
     "resolveJsonModule": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist", "public"]
+  "exclude": [
+    "../../../node_modules",
+    "../../../dist",
+    "../../../public"
+  ]
 }
