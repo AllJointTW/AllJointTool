@@ -69,7 +69,7 @@ yarn workspaces run lint --fix
 **release**
 ```sh
 # tag a version
-yarn lerna version -m "chore(release): publish v*.*.*" --create-release github
+yarn lerna version --message "chore(release): publish" --create-release github
 
 # publish
 yarn lerna publish from-package
