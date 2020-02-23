@@ -11,19 +11,21 @@ yarn add eslint prettier @alljoint-next/eslint-config --dev
 2. Setup Configuration
 ```sh
 echo '{ "extends": "@alljoint-next" }' > .eslintrc.json
-echo '!**/node_modules/**
-!./node_modules/**
-!**/.{git,svn,hg}/**
-!./.{git,svn,hg}/**' > .eslintignore
+echo '**/node_modules/**
+./node_modules/**
+**/.{git,svn,hg}/**
+./.{git,svn,hg}/**
+**/dist/**
+./dist/**' > .eslintignore
 ```
 
 3. Add Scripts
-package.json
+**package.json**
 ```json
 {
   "scripts": {
-    "format": "prettier **/*.{js,json,md,yaml} --write && yarn lint --fix",
-    "lint": "eslint **/*.js"
+    "format": "prettier **/*.{js,json,md,yaml} !**/dist/** !./dist/** --write && yarn lint --fix",
+    "lint": "eslint ."
   }
 }
 ```
