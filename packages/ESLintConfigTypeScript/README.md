@@ -11,6 +11,13 @@ yarn add eslint prettier typescript @alljoint-next/eslint-config-typescript --de
 2. Setup Configuration
 ```sh
 echo '{ "extends": "@alljoint-next/eslint-config-typescript" }' > .eslintrc.json
+echo '**/node_modules/**
+./node_modules/**
+**/.{git,svn,hg}/**
+./.{git,svn,hg}/**
+**/dist/**
+./dist/**' > .eslintignore
+echo '{ "extends": "@alljoint-next/ts-config" }' > .tsconfig.json
 ```
 
 3. Add Scripts
