@@ -10,5 +10,5 @@ yarn add @alljoint-next/ts-config --dev
 
 2. Setup Configuration
 ```sh
-echo '{ "extends": "@alljoint-next/ts-config" }' > .tsconfig.json
+echo '{ "extends": "@alljoint-next/ts-config" }' > tsconfig.json
 ```
