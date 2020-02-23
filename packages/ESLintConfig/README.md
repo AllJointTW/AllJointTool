@@ -24,8 +24,8 @@ echo '**/node_modules/**
 ```json
 {
   "scripts": {
-    "format": "prettier **/*.{js,json,md,yaml} !**/dist/** !./dist/** --write && yarn lint --fix",
-    "lint": "eslint ."
+    "format": "prettier **/*.{js,json,ts,md,yaml} !**/dist/** !./dist/** --write && yarn lint --fix",
+    "lint": "eslint **/*.js"
   }
 }
 ```
