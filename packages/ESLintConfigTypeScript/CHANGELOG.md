@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.1.3...@alljoint-next/eslint-config-typescript@0.1.4) (2020-02-29)
+
+
+### Bug Fixes
+
+* "Missing file extension “ts” import/extensions" issue ([f71e547](https://github.com/AllJointTW/AllJointNext/commit/f71e547a2c63b953b2ed06d9bef61f0aa3961959))
+
+
+
+
+
 ## [0.1.3](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.1.2...@alljoint-next/eslint-config-typescript@0.1.3) (2020-02-23)
 
 ### Bug Fixes
