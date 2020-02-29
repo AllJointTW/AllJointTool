@@ -7,8 +7,22 @@
   },
   "plugins": ["@typescript-eslint"],
   "extends": [
-    "@alljoint-next",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ]
+    "plugin:@typescript-eslint/recommended",
+    "@alljoint-next",
+    "plugin:import/typescript",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
 }
