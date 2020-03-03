@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.2.1...@alljoint-next/eslint-config-typescript@0.3.0) (2020-03-03)
+
+
+### Features
+
+* **eslint-config:** setup rules below, no semi and single quotes ([a01c879](https://github.com/AllJointTW/AllJointNext/commit/a01c8793680c79b6361dbcde6766cc61cb89cf84))
+* **eslint-config-typescript:** setup rules below, no semi and single quotes ([dbb2943](https://github.com/AllJointTW/AllJointNext/commit/dbb2943ab3128e232766cdebd0456e6f3474ae12))
+
+
+
+
+
 ## [0.2.1](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.2.0...@alljoint-next/eslint-config-typescript@0.2.1) (2020-03-03)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-typescript

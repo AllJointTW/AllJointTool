@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config@0.2.0...@alljoint-next/eslint-config@0.3.0) (2020-03-03)
+
+
+### Features
+
+* **eslint-config:** setup rules below, no semi and single quotes ([a01c879](https://github.com/AllJointTW/AllJointNext/commit/a01c8793680c79b6361dbcde6766cc61cb89cf84))
+
+
+
+
+
 # [0.2.0](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config@0.1.3...@alljoint-next/eslint-config@0.2.0) (2020-03-03)
 
 ### Features
