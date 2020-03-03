@@ -11,7 +11,6 @@
     "jest": true
   },
   "rules": {
-    "semi": [2, "never"],
-    "quotes": [2, "single"]
+    "prettier/prettier": ["error", { "singleQuote": true, "semi": false }]
   }
 }
