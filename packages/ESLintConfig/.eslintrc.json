@@ -9,5 +9,9 @@
   "env": {
     "node": true,
     "jest": true
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "quotes": [2, "single"]
   }
 }
