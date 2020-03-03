@@ -7,31 +7,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-typescript
 
-
-
-
-
 # [0.2.0](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.1.4...@alljoint-next/eslint-config-typescript@0.2.0) (2020-02-29)
-
 
 ### Features
 
-* **eslint-config-typescript:** turn off the useless rules of typescript ([eb07a94](https://github.com/AllJointTW/AllJointNext/commit/eb07a94f3c4ab479038a8d84f7ec1855a16613da))
-
-
-
-
+- **eslint-config-typescript:** turn off the useless rules of typescript ([eb07a94](https://github.com/AllJointTW/AllJointNext/commit/eb07a94f3c4ab479038a8d84f7ec1855a16613da))
 
 ## [0.1.4](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.1.3...@alljoint-next/eslint-config-typescript@0.1.4) (2020-02-29)
 
-
 ### Bug Fixes
 
-* "Missing file extension “ts” import/extensions" issue ([f71e547](https://github.com/AllJointTW/AllJointNext/commit/f71e547a2c63b953b2ed06d9bef61f0aa3961959))
-
-
-
-
+- "Missing file extension “ts” import/extensions" issue ([f71e547](https://github.com/AllJointTW/AllJointNext/commit/f71e547a2c63b953b2ed06d9bef61f0aa3961959))
 
 ## [0.1.3](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.1.2...@alljoint-next/eslint-config-typescript@0.1.3) (2020-02-23)
 
