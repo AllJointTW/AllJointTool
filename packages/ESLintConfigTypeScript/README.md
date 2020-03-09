@@ -34,8 +34,8 @@ echo '{ "extends": "@alljoint-next/ts-config" }' > tsconfig.json
 ```json
 {
   "scripts": {
-    "format": "prettier **/*.{js,json,ts,md,yaml} !**/dist/** !./dist/** --write --no-semi --single-quote && yarn lint --fix",
-    "lint": "eslint **/*.ts"
+    "format": "prettier '**/*.{js,json,ts,md,yaml}' !**/dist/** !./dist/** !**/coverage/** --write --no-semi --single-quote && yarn lint --fix",
+    "lint": "eslint '**/*.ts'"
   }
 }
 ```
