@@ -1,6 +1,6 @@
 {
   "name": "@alljoint-next/ts-config",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The TSLint Config Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "license": "GPL-3.0",

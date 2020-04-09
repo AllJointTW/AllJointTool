@@ -1,6 +1,6 @@
 {
   "name": "@alljoint-next/eslint-config",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "The ESLint Config Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "license": "GPL-3.0",
