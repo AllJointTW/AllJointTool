@@ -5,6 +5,6 @@ titleAndCommits: true
 allowMergeCommits: true
 # You can define a list of valid scopes
 scopes:
-  - ESLintConfig
-  - ESlintConfigTypeScript
-  - TSConfig
+  - eslint-config
+  - eslint-config-typescript
+  - ts-config
