@@ -8,12 +8,13 @@
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "ES2017",
+    "target": "ES2019",
     "sourceMap": true,
     "incremental": true,
     "allowJs": true,
-    "checkJs": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "lib": ["ES2019"],
+    "typeRoots": ["../../../node_modules/@types"]
   },
   "exclude": ["../../../node_modules", "../../../dist", "../../../public"]
 }
