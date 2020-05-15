@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/eslint-config
 
-
-
-
-
 ## [0.3.1](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config@0.3.0...@alljoint-next/eslint-config@0.3.1) (2020-03-07)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config

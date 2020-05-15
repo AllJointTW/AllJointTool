@@ -7,17 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/ts-config
 
-
-
-
-
 ## [0.1.6](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/ts-config@0.1.5...@alljoint-next/ts-config@0.1.6) (2020-04-09)
 
 **Note:** Version bump only for package @alljoint-next/ts-config
-
-
-
-
 
 ## [0.1.5](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/ts-config@0.1.4...@alljoint-next/ts-config@0.1.5) (2020-03-07)
 

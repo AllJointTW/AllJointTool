@@ -2,7 +2,7 @@
 
 > The Tool Sets Be Used For AllJointNext
 
-## Tool List
+## Document
 
 - [EslintConfig](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfig): The ESLint Config Used For AllJointNext
 - [ESLintConfigTypeScript](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigTypeScript) The ESLint Config Be Used For AllJointNext
