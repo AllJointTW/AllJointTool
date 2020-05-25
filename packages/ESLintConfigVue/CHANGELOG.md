@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-vue
 
-
-
-
-
 # 0.1.0 (2020-05-25)
 
 ### Features
