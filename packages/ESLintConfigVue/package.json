@@ -1,6 +1,6 @@
 {
   "name": "@alljoint-next/eslint-config-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The ESLint Config Vue Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "license": "GPL-3.0",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/AllJointTW/AllJointNext.git"
   },
   "dependencies": {
-    "@alljoint-next/eslint-config": "0.3.5",
+    "@alljoint-next/eslint-config": "0.3.6",
     "babel-eslint": "^10.1.0",
     "eslint-import-resolver-node": "^0.3.3",
     "eslint-import-resolver-nuxt": "^1.0.1",
