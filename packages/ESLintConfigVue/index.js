@@ -14,14 +14,7 @@ try {
 
 module.exports = {
   root: true,
-  extends: [
-    'eslint:recommended',
-    'plugin:vue/recommended',
-    'plugin:jest/recommended',
-    'airbnb-base',
-    'plugin:prettier/recommended',
-    'prettier/vue'
-  ],
+  extends: ['plugin:vue/recommended', '@alljoint-next', 'prettier/vue'],
   settings: {
     'import/resolver': {
       ...resolver,
@@ -31,15 +24,8 @@ module.exports = {
     },
     'import/extensions': ['.js', '.jsx', '.json', '.mjs', '.vue']
   },
-  env: {
-    node: true,
-    jest: true
-  },
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: 'babel-eslint'
-  },
-  rules: {
-    'prettier/prettier': ['error', { singleQuote: true, semi: false }]
   }
 }

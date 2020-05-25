@@ -4,6 +4,10 @@
     {
       "files": ["*.ts"],
       "extends": "@alljoint-next/eslint-config-typescript"
+    },
+    {
+      "files": ["*.vue"],
+      "extends": "@alljoint-next/eslint-config-vue"
     }
   ]
 }

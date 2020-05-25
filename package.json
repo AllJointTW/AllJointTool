@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "format": "prettier '**/*.{js,json,ts,vue,md,yaml}' !**/dist/** !./dist/** --write --no-semi --single-quote && yarn lint --fix",
-    "lint": "eslint '**/*.{js,ts}'"
+    "lint": "eslint '**/*.{js,ts,vue}'"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
