@@ -79,18 +79,13 @@ yarn workspace workspace-name add package-name
 **format**
 
 ```sh
-# format just root
 yarn format
-
-# format the whole workspace (root)
-yarn workspaces run format
 ```
 
 **lint**
 
 ```sh
-# lint the whole workspace (root)
-yarn workspaces run lint --fix
+yarn lint # --fix
 ```
 
 **release**

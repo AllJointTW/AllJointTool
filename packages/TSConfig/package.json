@@ -14,9 +14,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AllJointTW/AllJointNext.git"
-  },
-  "scripts": {
-    "format": "prettier **/*.{js,json,ts,md,yaml} !**/dist/** !./dist/** --write --no-semi --single-quote",
-    "lint": ":"
   }
 }

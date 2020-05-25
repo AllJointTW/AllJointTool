@@ -29,7 +29,7 @@ echo '**/node_modules/**
 ```json
 {
   "scripts": {
-    "format": "prettier '**/*.{js,json,ts,md,yaml}' !**/dist/** !./dist/** !**/coverage/** --write --no-semi --single-quote && yarn lint --fix",
+    "format": "prettier '**/*.{js,json,ts,vue,md,yaml}' !**/dist/** !./dist/** !**/coverage/** --write --no-semi --single-quote && yarn lint --fix",
     "lint": "eslint '**/*.js'"
   }
 }
