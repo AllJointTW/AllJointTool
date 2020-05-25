@@ -7,4 +7,5 @@ allowMergeCommits: true
 scopes:
   - eslint-config
   - eslint-config-typescript
+  - eslint-config-vue
   - ts-config
