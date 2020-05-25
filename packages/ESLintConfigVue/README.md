@@ -7,8 +7,8 @@
 1. Installation
 
 ```sh
-yarn add eslint prettier @alljoint-next/eslint-config --dev
-# npm install eslint prettier @alljoint-next/eslint-config --save-dev
+yarn add eslint prettier @alljoint-next/eslint-config-vue --dev
+# npm install eslint prettier @alljoint-next/eslint-config-vue --save-dev
 ```
 
 2. Setup Configuration

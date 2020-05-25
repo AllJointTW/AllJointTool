@@ -6,6 +6,7 @@
 
 - [EslintConfig](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfig): The ESLint Config Used For AllJointNext
 - [ESLintConfigTypeScript](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigTypeScript) The ESLint Config Be Used For AllJointNext
+- [ESLintConfigVue](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigVue) The ESLint Config Vue Be Used For AllJointNext
 - [TSConfig](https://github.com/AllJointTW/AllJointTool/tree/master/packages/TSConfig) The TS Config Be Used For AllJointNext
 
 ## Contributing Guide
@@ -50,6 +51,7 @@
   - https://zhuanlan.zhihu.com/p/71385053
 
 - yarn workspace
+
   - https://classic.yarnpkg.com/en/docs/workspaces
   - https://classic.yarnpkg.com/en/docs/cli/workspace
   - https://classic.yarnpkg.com/blog/2018/02/15/nohoist
