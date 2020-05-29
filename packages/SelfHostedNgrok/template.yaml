@@ -1,0 +1,8 @@
+# config.yaml
+server_addr: '*.ngrok.$DOMAIN:4443'
+trust_host_root_certs: true
+tunnels:
+  api:
+    subdomain: api-${USER}
+    proto:
+      https: 3000

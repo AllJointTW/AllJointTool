@@ -9,3 +9,4 @@ scopes:
   - eslint-config-typescript
   - eslint-config-vue
   - ts-config
+  - self-hosted-ngrok
