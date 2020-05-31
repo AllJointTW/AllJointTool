@@ -40,7 +40,7 @@ sudo apt autoremove
 2. install tool
 
 ```sh
-sudo apt install make git certbot
+sudo apt install make git certbot nginx ufw
 ```
 
 3. setup the ssl
@@ -66,9 +66,79 @@ Press ENTER to continue
 
 4. setup the domain
 
+**Server IP is your external ip**
+
 ![ScreenShot3](./screenshot3.png)
 
-5. install go
+5. setup the firewall for nginx
+
+```sh
+# list the app
+sudo ufw app list
+
+# allow nginx
+sudo ufw allow 'Nginx Full'
+```
+
+**check**
+
+```sh
+sudo ufw status
+```
+
+6. get current ip and add the new ip
+
+```sh
+# check your network interface controller and internal ip
+ip a
+```
+
+![ScreenShot4](./screenshot4.png)
+
+**my internal ip is 10.140.0.5, and my network interface controller is ens4**
+
+```sh
+# add the new ip
+ip addr add 172.140.0.5 dev ens4
+```
+
+7. setup nginx
+
+**10.140.0.5 is my internal ip**
+**172.140.0.5 is my new ip**
+
+```sh
+# remove useless
+rm /etc/nginx/sites-enabled/default
+
+# add the config
+bash -c "echo 'server {
+  listen 10.140.0.5:80;
+  listen 10.140.0.5:443;
+  server_name ngrok.${DOMAIN} *.ngrok.${DOMAIN}
+
+  location / {
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $host;
+    proxy_redirect off;
+    proxy_pass http://172.140.0.5:80;
+  }
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/ngrok.${DOMAIN}/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/ngrok.${DOMAIN}/privkey.pem;
+}' > /etc/nginx/sites-enabled/ngrokd.conf"
+
+# reload service
+sudo systemctl reload nginx
+sudo systemctl restart nginx
+
+# enable boot
+sudo systemctl enable nginx
+```
+
+8. install go
 
 ```sh
 curl https://dl.google.com/go/go1.14.3.linux-amd64.tar.gz --output go1.14.3.linux-amd64.tar.gz
@@ -84,7 +154,7 @@ source $HOME/.profile
 go -v
 ```
 
-6. build server
+9. build server
 
 ```sh
 git clone https://github.com/inconshreveable/ngrok.git
@@ -93,7 +163,9 @@ make release-server
 mv bin/ngrokd /usr/local/bin
 ```
 
-7. setup the service
+10. setup the service
+
+**172.140.0.5 is my new ip**
 
 ```sh
 sudo echo \
@@ -106,7 +178,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/local/bin/ngrokd -tlsKey="/etc/letsencrypt/live/${DOMAIN}/privkey.pem" -tlsCrt="/etc/letsencrypt/live/${DOMAIN}/fullchain.pem" -domain="${DOMAIN}"
+ExecStart=/usr/local/bin/ngrokd -httpAddr=172.140.0.5:80 -httpsAddr=172.140.0.5:443 -tlsKey="/etc/letsencrypt/live/${DOMAIN}/privkey.pem" -tlsCrt="/etc/letsencrypt/live/${DOMAIN}/fullchain.pem" -domain="${DOMAIN}"
 [Install]
 WantedBy=multi-user.target /etc/systemd/system/ngrokd.service' > /etc/systemd/system/ngrokd.service
 
