@@ -11,7 +11,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/jest": "^25.1.2",
-    "@types/node": "^13.7.1",
+    "@types/node": "^14.0.6",
     "eslint": "^6.8.0",
     "husky": "^4.2.2",
     "lerna": "^3.20.2",
