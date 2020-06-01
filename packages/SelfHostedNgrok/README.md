@@ -54,7 +54,7 @@ certbot -d ngrok.${DOMAIN} -d *.ngrok.${DOMAIN} --manual --preferred-challenges 
 
 ```sh
 Please deploy a DNS TXT record under the name
-_acme-challenge.ngrok.domain.com with the following value:
+_acme-challenge.ngrok.${DOMAIN} with the following value:
 
 767drhmQL3vX6bu8YZlgy0eKNBlCny8yrjF1lSafndc
 
@@ -114,15 +114,35 @@ rm /etc/nginx/sites-enabled/default
 # add the config
 bash -c "echo 'server {
   listen 10.140.0.5:80;
-  listen 10.140.0.5:443;
-  server_name ngrok.${DOMAIN} *.ngrok.${DOMAIN}
+  server_name ngrok.${DOMAIN} *.ngrok.${DOMAIN};
 
   location / {
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header Host $host;
-    proxy_redirect off;
+    proxy_set_header Host \$host;
+    proxy_set_header X-Real-IP \$remote_addr;
+    proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto \$scheme;
+    proxy_set_header X-NginX-Proxy true;
     proxy_pass http://172.140.0.5:80;
+    proxy_read_timeout 1m;
+    proxy_connect_timeout 1m;
+    proxy_redirect off;
+  }
+}
+
+server {
+  listen 10.140.0.5:443;
+  server_name ngrok.${DOMAIN} *.ngrok.${DOMAIN};
+
+  location / {
+    proxy_set_header Host \$host;
+    proxy_set_header X-Real-IP \$remote_addr;
+    proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto \$scheme;
+    proxy_set_header X-NginX-Proxy true;
+    proxy_pass https://172.140.0.5:443;
+    proxy_read_timeout 1m;
+    proxy_connect_timeout 1m;
+    proxy_redirect off;
   }
 
   ssl on;
