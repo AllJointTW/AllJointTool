@@ -4,9 +4,9 @@
   "description": "The TSLint Config Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "license": "GPL-3.0",
-  "main": "index.json",
+  "main": "tsconfig.json",
   "files": [
-    "index.json"
+    "tsconfig.json"
   ],
   "publishConfig": {
     "access": "public"

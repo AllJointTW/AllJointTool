@@ -4,9 +4,9 @@
   "description": "The ESLint Config Vue Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "license": "GPL-3.0",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
-    "index.js"
+    ".eslintrc.js"
   ],
   "publishConfig": {
     "access": "public"
