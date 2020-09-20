@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.12](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.11...@alljoint-next/eslint-config-typescript@0.3.12) (2020-09-20)
+
+
+### Bug Fixes
+
+* **@alljoint-next/eslint-config-typescript:** false positive of no-shadow rule with enum ([431f616](https://github.com/AllJointTW/AllJointNext/commit/431f616dbb34d51a6861bebe208b7655947d16eb))
+
+
+
+
+
 ## [0.3.11](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.10...@alljoint-next/eslint-config-typescript@0.3.11) (2020-09-20)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-typescript
