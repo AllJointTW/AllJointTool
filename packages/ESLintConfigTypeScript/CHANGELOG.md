@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.11](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.10...@alljoint-next/eslint-config-typescript@0.3.11) (2020-09-20)
+
+**Note:** Version bump only for package @alljoint-next/eslint-config-typescript
+
+
+
+
+
 ## [0.3.10](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.9...@alljoint-next/eslint-config-typescript@0.3.10) (2020-07-05)
 
 ### Bug Fixes

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-vue@0.1.4...@alljoint-next/eslint-config-vue@0.1.5) (2020-09-20)
+
+**Note:** Version bump only for package @alljoint-next/eslint-config-vue
+
+
+
+
+
 ## [0.1.4](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-vue@0.1.3...@alljoint-next/eslint-config-vue@0.1.4) (2020-07-04)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-vue
