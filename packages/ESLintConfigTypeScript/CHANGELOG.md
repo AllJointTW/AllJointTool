@@ -5,25 +5,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.10](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.9...@alljoint-next/eslint-config-typescript@0.3.10) (2020-07-05)
 
-
 ### Bug Fixes
 
-* **eslint-config-typescript:** the conflict of no-useless-constructor rule ([5534710](https://github.com/AllJointTW/AllJointNext/commit/5534710156595b234fbaec154b6e1adda8efc18d))
-
-
-
-
+- **eslint-config-typescript:** the conflict of no-useless-constructor rule ([5534710](https://github.com/AllJointTW/AllJointNext/commit/5534710156595b234fbaec154b6e1adda8efc18d))
 
 ## [0.3.9](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.8...@alljoint-next/eslint-config-typescript@0.3.9) (2020-07-04)
 
-
 ### Bug Fixes
 
-* **eslint-config-typescript:** update the config ([ecb4f5c](https://github.com/AllJointTW/AllJointNext/commit/ecb4f5c7f0b5d6e8f4a0693bee3ecbe228767f47))
-
-
-
-
+- **eslint-config-typescript:** update the config ([ecb4f5c](https://github.com/AllJointTW/AllJointNext/commit/ecb4f5c7f0b5d6e8f4a0693bee3ecbe228767f47))
 
 ## [0.3.8](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.7...@alljoint-next/eslint-config-typescript@0.3.8) (2020-07-04)
 
