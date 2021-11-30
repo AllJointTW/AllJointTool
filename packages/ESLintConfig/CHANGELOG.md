@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.10](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config@0.3.9...@alljoint-next/eslint-config@0.3.10) (2021-11-30)
+
+**Note:** Version bump only for package @alljoint-next/eslint-config
+
+
+
+
+
 ## [0.3.9](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config@0.3.8...@alljoint-next/eslint-config@0.3.9) (2020-09-20)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config
