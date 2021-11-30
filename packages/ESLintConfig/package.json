@@ -16,7 +16,7 @@
     "url": "git+https://github.com/AllJointTW/AllJointNext.git"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^24.3.6",
