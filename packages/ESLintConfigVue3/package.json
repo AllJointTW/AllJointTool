@@ -1,6 +1,6 @@
 {
   "name": "@alljoint-next/eslint-config-vue3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The ESLint Config Vue 3 Be Used For AllJointNext",
   "author": "TZU-YEN, CHANG <try_love_tom@alljoint.tw>",
   "homepage": "https://www.alljoint.tw",
@@ -20,7 +20,7 @@
     "url": "https://github.com/AllJointTW/AllJointTool/issues"
   },
   "dependencies": {
-    "@alljoint-next/eslint-config": "0.3.10",
+    "@alljoint-next/eslint-config": "0.3.11",
     "eslint-plugin-vue": "^8.1.1",
     "vue-eslint-parser": "^8.0.1"
   },
