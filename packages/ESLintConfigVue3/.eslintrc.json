@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "extends": ["plugin:vue/vue3-strongly-recommended", "@alljoint-next", "prettier/vue"],
+  "env": { "jest": true },
+  "settings": {
+    "import/resolver": { "alias": { "map": [["@", "./src/client/src"], ["~", "./src/dashboard/src"]] } },
+    "import/extensions": [".js", ".jsx", ".json", ".mjs", ".vue"]
+  }
+}
