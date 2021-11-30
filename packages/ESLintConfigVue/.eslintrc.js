@@ -14,7 +14,7 @@ try {
 
 module.exports = {
   root: true,
-  extends: ['plugin:vue/recommended', '@alljoint-next', 'prettier/vue'],
+  extends: ['plugin:vue/recommended', '@alljoint-next', 'prettier'],
   settings: {
     'import/resolver': {
       ...resolver,
@@ -26,6 +26,7 @@ module.exports = {
   },
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
   }
 }

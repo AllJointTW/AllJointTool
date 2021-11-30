@@ -1,10 +1,14 @@
 {
   "root": true,
   "parser": "vue-eslint-parser",
-  "extends": ["plugin:vue/vue3-strongly-recommended", "@alljoint-next", "prettier/vue"],
+  "extends": [
+    "plugin:vue/vue3-strongly-recommended",
+    "@alljoint-next",
+    "prettier"
+  ],
   "env": { "jest": true },
   "settings": {
-    "import/resolver": { "alias": { "map": [["@", "./src/client/src"], ["~", "./src/dashboard/src"]] } },
+    "import/resolver": { "alias": { "map": [] } },
     "import/extensions": [".js", ".jsx", ".json", ".mjs", ".vue"]
   }
 }
