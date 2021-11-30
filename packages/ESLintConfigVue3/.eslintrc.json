@@ -1,14 +1,22 @@
 {
   "root": true,
   "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@babel/eslint-parser"
+  },
   "extends": [
-    "plugin:vue/vue3-strongly-recommended",
+    "plugin:vue/vue3-recommended",
     "@alljoint-next",
     "prettier"
   ],
-  "env": { "jest": true },
+  "env": {
+    "jest": true,
+    "vue/setup-compiler-macros": true
+  },
+  "rules": {
+    "vue/script-setup-uses-vars": "error"
+  },
   "settings": {
-    "import/resolver": { "alias": { "map": [] } },
     "import/extensions": [".js", ".jsx", ".json", ".mjs", ".vue"]
   }
 }
