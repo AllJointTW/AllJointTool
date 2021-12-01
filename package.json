@@ -18,6 +18,6 @@
     "jest": "^27.4.2",
     "lerna": "^3.20.2",
     "prettier": "^1.19.1",
-    "typescript": "^3.7.5"
+    "typescript": "^4.5.2"
   }
 }
