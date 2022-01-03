@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.16](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/ts-config@0.1.15...@alljoint-next/ts-config@0.1.16) (2022-01-03)
+
+**Note:** Version bump only for package @alljoint-next/ts-config
+
+
+
+
+
 ## [0.1.15](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/ts-config@0.1.14...@alljoint-next/ts-config@0.1.15) (2021-11-30)
 
 **Note:** Version bump only for package @alljoint-next/ts-config
