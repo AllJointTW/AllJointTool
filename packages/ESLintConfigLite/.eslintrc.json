@@ -5,10 +5,7 @@
     "airbnb-base",
     "plugin:prettier/recommended"
   ],
-  "env": {
-    "node": true,
-    "jest": true
-  },
+  "env": { "node": true },
   "rules": {
     "prettier/prettier": [
       "error",

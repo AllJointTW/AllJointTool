@@ -14,7 +14,7 @@ yarn add eslint prettier @alljoint-next/eslint-config-lite --dev
 2. Setup Configuration
 
 ```sh
-echo '{ "extends": "@alljoint-next" }' > .eslintrc.json
+echo '{ "extends": "@alljoint-next/eslint-config-lite" }' > .eslintrc.json
 echo '**/node_modules/**
 ./node_modules/**
 **/.{git,svn,hg}/**
