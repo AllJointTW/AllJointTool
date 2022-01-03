@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-typescript
 
-
-
-
-
 ## [0.3.14](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-typescript@0.3.13...@alljoint-next/eslint-config-typescript@0.3.14) (2021-11-30)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-typescript

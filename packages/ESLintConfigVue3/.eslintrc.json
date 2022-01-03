@@ -4,11 +4,7 @@
   "parserOptions": {
     "parser": "@babel/eslint-parser"
   },
-  "extends": [
-    "plugin:vue/vue3-recommended",
-    "@alljoint-next",
-    "prettier"
-  ],
+  "extends": ["plugin:vue/vue3-recommended", "@alljoint-next", "prettier"],
   "env": {
     "jest": true,
     "vue/setup-compiler-macros": true

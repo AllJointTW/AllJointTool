@@ -7,17 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-vue
 
-
-
-
-
 ## [0.2.2](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-vue@0.2.1...@alljoint-next/eslint-config-vue@0.2.2) (2021-11-30)
 
 **Note:** Version bump only for package @alljoint-next/eslint-config-vue
-
-
-
-
 
 ## [0.2.1](https://github.com/AllJointTW/AllJointNext/compare/@alljoint-next/eslint-config-vue@0.2.0...@alljoint-next/eslint-config-vue@0.2.1) (2021-11-30)
 
