@@ -4,7 +4,8 @@
 
 ## Document
 
-- [EslintConfig](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfig): The ESLint Config Used For AllJointNext
+- [ESlintConfig](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfig): The ESLint Config Used For AllJointNext
+- [ESlintConfigLite](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigLite): The ESLint Config Used For AllJointNext (without Jest)
 - [ESLintConfigTypeScript](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigTypeScript) The ESLint Config Be Used For AllJointNext
 - [ESLintConfigVue](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigVue) The ESLint Config Vue 2 Be Used For AllJointNext
 - [ESLintConfigVue3](https://github.com/AllJointTW/AllJointTool/tree/master/packages/ESLintConfigVue3) The ESLint Config Vue 3 Be Used For AllJointNext

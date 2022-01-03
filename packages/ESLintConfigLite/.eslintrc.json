@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "semi": false, "trailingComma": "none" }
+    ]
+  }
+}
