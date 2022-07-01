@@ -23,7 +23,7 @@
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-nuxt": "^1.0.1",
     "eslint-import-resolver-webpack": "^0.13.2",
-    "eslint-plugin-vue": "^8.1.1",
+    "eslint-plugin-vue": "^9.1.1",
     "vue-eslint-parser": "^8.0.1"
   },
   "peerDependencies": {
